@@ -2,7 +2,7 @@
 
 > type: dsp
 
-Linearly remap the MIDI input velocity from [`Input MIN Velocity`, `Input MAX Velocity`] to [`Output MIN Velocity`, `Output MAX Velocity`] clamped to `[1, 127]`.
+Linearly remap the MIDI input velocity from `[Input MIN Velocity, Input MAX Velocity]` to `[Output MIN Velocity, Output MAX Velocity]` clamped to `[1, 127]`.
 
 ![](./midi_remap_velocity.png)
 
